@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
       
       <div className="App">
-        {/* <Navbar /> */}
-        {/* <GlobalPresentation />
-        <Objectifs /> */}
+        <Navbar />
+        <GlobalPresentation />
+        <Objectifs />
         <Particles id="tsparticles" />
       </div>
     </BrowserRouter>
