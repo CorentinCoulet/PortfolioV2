@@ -1,0 +1,52 @@
+@import './_variables.scss';
+@import './_mixins.scss';
+@import './_general.scss';
+
+.navBar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 93%;
+    width: 15%;
+    background-color: $gris;
+    padding: 10px;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 10px 0 10px rgba($bleu, 0.301), -10px 0 10px rgba($bleu, 0.301);
+    margin: 20px 50px;
+
+    a {
+        margin: 15px 0;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    ul {
+        margin: 30px 0;
+        padding: 0;
+    }
+
+    div:nth-child(1){
+        img {
+            border-radius: 50%;
+            border: 5px solid $grisClair;
+        }
+    }
+
+    div:nth-child(2){
+        display: flex;
+        flex-direction: column;
+
+        ul {
+            display: flex;
+            flex-direction: row;  
+        }
+    }
+}
