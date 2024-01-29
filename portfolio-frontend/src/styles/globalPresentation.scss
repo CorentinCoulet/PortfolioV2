@@ -3,27 +3,26 @@
 @import './_general.scss';
 
 .globalPresentation {
-    display: flex;
-    flex-direction: column;
-    @include center-element;
-    @include borders;
-    @include size;
-    @include ensemble-box;
-    @include box-shadow-presentation(
-        10px 0 10px rgba(25, 25, 192, 0.301), 
-        -10px 0 10px rgba(25, 25, 192, 0.301)
-    );
-
     h1 {
-        color: white;
+        color: $blanc;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 1.2;
     }
 
     button {
         color: $rouge;
-        background-color: #27272E;
-        box-shadow: -5px -5px 10px rgba(109, 107, 107, 0.301), 5px 5px 10px rgba(0, 0, 0, 0.329);
+        background-color: $gris;
+        @include box-shadow-presentation(
+            -5px -5px 10px rgba(109, 107, 107, 0.1), 
+            5px 5px 10px rgba(0, 0, 0, 0.5)
+        );
         border: none;
         border-radius: 5%;
+
+        &:hover {
+            @include backgroundRadient(linear-gradient(to right bottom, #212428, #16181c));
+        }
     }
 
     h1, button {

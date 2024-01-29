@@ -18,8 +18,8 @@ const Navbar = () => {
         <div>
             <p>SUIVEZ MOI</p>
             <ul>
-                <li><a><img src={twitter} alt="logo twitter"/></a></li>
-                <li><a><img src={linkedin} alt="logo linkedin"/></a></li>
+                <li><a href="https://twitter.com/cocoCLT" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="logo twitter"/></a></li>
+                <li><a href="https://github.com/CorentinCoulet" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="logo linkedin"/></a></li>
             </ul>
         </div>
     </nav>

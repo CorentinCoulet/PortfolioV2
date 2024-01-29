@@ -37,11 +37,11 @@ const ParticlesComponent = (props: ParticlesComponentProps) => {
         interactivity: {
           events: {
             onClick: {
-              enable: true,
+              enable: false,
               mode: "push",
             },
             onHover: {
-              enable: true,
+              enable: false,
               mode: "repulse",
             },
           },
@@ -56,18 +56,27 @@ const ParticlesComponent = (props: ParticlesComponentProps) => {
         },
         particles: {
           links: {
+            color: "#c4cfde",
             enable: true,
             distance: 200,
+            opacity: 0.5,
+            width: 1,
           },
           move: {
             enable: true,
-            speed: { min: 3, max: 6},
+            speed: { min: 4, max: 7},
           },
           opacity: {
             value: { min: 0.3, max: 0.7},
           },
           size: {
             value: { min: 1, max: 3},
+          },
+          number: {
+            density: {
+              enable: true,
+            },
+            value: 130,
           }
         },
       };

@@ -1,4 +1,5 @@
 import "../styles/objectifs.scss";
+import Arrow from "../../public/right-arrow.png";
 
 const Objectifs = () => {
   return (
@@ -7,34 +8,43 @@ const Objectifs = () => {
         <h2>Ce que je souhaite faire</h2>
         <ul>
             <li>
-                <div>
-                    <p>Développeur Back-End</p>
+                <div className="service">
+                    <h3>Développeur Back-End</h3>
                     <div>
                         Le développeur Back-end programme 
                         la partie cachée d'une solution web,
                         le côté serveur, admistrateur d'une app
                         ou d'un site web.
-                    </div>  
+                    </div> 
+                    <a>
+                        <img src={Arrow} alt="flèche droite" className="feather-arrow-right"></img>
+                    </a> 
                 </div>
             </li>
             <li>
-                <div>
-                    <p>Développeur Front-End</p>
+                <div className="service">
+                    <h3>Développeur Front-End</h3>
                     <div>
                         Le développeur Front-End programme la partie
                         visible, l'interface utilisateur d'une app ou
                         d'un site web.
                     </div>  
+                    <a>
+                        <img src={Arrow} alt="flèche droite" className="feather-arrow-right"></img>
+                    </a>
                 </div>
             </li>
             <li>
-                <div>
-                    <p>Développeur Full Stack</p>
+                <div className="service">
+                    <h3>Développeur Full Stack</h3>
                     <div>
                         Le développeur Full Stack est un développeur
                         touche-à-tout et complet, qui travaille à la
                         fois côté Back-End et Front-End.
-                    </div>  
+                    </div> 
+                    <a>
+                        <img src={Arrow} alt="flèche droite" className="feather-arrow-right"></img>
+                    </a> 
                 </div>
             </li>
         </ul>

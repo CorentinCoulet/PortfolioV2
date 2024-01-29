@@ -1,0 +1,63 @@
+@import './_variables.scss';
+@import './_mixins.scss';
+@import './_general.scss';
+
+.profil {
+    
+    > div:first-child {
+        height: 10%;
+        color: $blanc;
+        h2 {
+            text-align: center;
+            padding-bottom: 10px;
+            margin: 20px 0;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            width: 900px;
+            height: 100%;
+            @include backgroundRadient;                 
+            @include box-shadow-presentation(
+                10px 10px 19px rgba(26, 30, 34, 0.3)
+            );
+            @include borders($border-radius: 15px);
+
+            li {
+                padding: 0 20px;
+                transition: color 0.125s ease-in-out;
+                padding: 35px 50px;
+                width: 25%;
+                height: 20%;
+                @include center-element($justify-content: center);
+                text-align: center;
+
+                &:first-child:hover {
+                    @include borders($border: none, $border-radius: 15px 0 0 15px);  
+                }
+                &:last-child:hover {
+                    @include borders($border: none, $border-radius: 0 15px 15px 0);  
+                }
+            }
+
+            li:hover, .actif {
+                color: $rouge;
+                background: linear-gradient(145deg, rgba(33, 36, 40, 0.8), rgba(22, 24, 28, 0.8)); 
+            }
+
+            .actif1 {
+                border-radius: 15px 0 0 15px;
+            }
+
+            .actif2 {
+                border-radius: 0 15px 15px 0 
+            }
+        }
+    }   
+
+    > div:nth-child(2){
+        height: 90%;
+        margin-top: 10px;
+    }
+}

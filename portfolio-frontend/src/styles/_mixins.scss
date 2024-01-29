@@ -1,4 +1,4 @@
-@mixin ensemble-box($background-color: #32363b, $margin: 3% 15%, $padding: 0){
+@mixin ensemble-box($background-color: rgba(39, 39, 46, 0.9), $margin: 3% 15%, $padding: 0){
     background-color: $background-color;
     margin: $margin;
     padding: $padding;
@@ -9,7 +9,7 @@
     height: $height;
 }
 
-@mixin borders ($border: 2px solid #000, $border-radius: 30px){
+@mixin borders ($border: 2px solid #27272E, $border-radius: 30px){
     border: $border;
     border-radius: $border-radius;
 }
@@ -24,4 +24,8 @@
     justify-content: $justify-content;
     align-content: $align-content;
     align-items: $align-items;
+}
+
+@mixin backgroundRadient($backgroundRadient: linear-gradient(145deg,rgba(30, 32, 36, 0.8), rgba(35, 39, 43, 0.8))){
+    background: $backgroundRadient;
 }

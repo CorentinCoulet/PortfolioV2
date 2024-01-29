@@ -4,17 +4,18 @@ import GlobalPresentation from './pages/GlobalPresentation';
 import Navbar from './pages/NavBar';
 import Objectifs from './pages/Objectifs';
 import Particles from './components/Particles.tsx';
+import Profil from './pages/Profil.tsx';
 
 function App() {
 
   return (
     <BrowserRouter>
-      
+      <Particles id="tsparticles" />
       <div className="App">
         <Navbar />
         <GlobalPresentation />
         <Objectifs />
-        <Particles id="tsparticles" />
+        <Profil />
       </div>
     </BrowserRouter>
   )
