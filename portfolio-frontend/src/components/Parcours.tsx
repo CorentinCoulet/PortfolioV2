@@ -12,7 +12,7 @@ const Parcours = () => {
     media: {
       type: "IMAGE",
       source: {
-        url: Sti2d
+        url: ""
       }
     }
   },];
