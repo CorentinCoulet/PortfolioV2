@@ -11,13 +11,12 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Particles id="tsparticles" />
+      {/*<Particles id="tsparticles" />*/}
       <div className="App">
         <Navbar />
         <GlobalPresentation />
         <Objectifs />
-        {/*<Profil />
-        <Parcours />*/}
+        <Profil />
       </div>
     </BrowserRouter>
   )

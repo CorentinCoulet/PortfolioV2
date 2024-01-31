@@ -35,10 +35,12 @@ const Profil = () => {
                     >Projets</li>
                 </ul>
             </div>
-            {ongletActif === "parcours" && <Parcours />}
-            {ongletActif === "competences" && <Skills />}
-            {ongletActif === "experience" && <Experience />}
-            {ongletActif === "realisations" && <Realisations />}
+            <div>
+                {ongletActif === "parcours" && <Parcours />}
+                {ongletActif === "competences" && <Skills />}
+                {ongletActif === "experience" && <Experience />}
+                {ongletActif === "realisations" && <Realisations />}
+            </div>
         </div>
     );
   };
