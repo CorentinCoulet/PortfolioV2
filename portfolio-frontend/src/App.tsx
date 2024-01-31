@@ -5,6 +5,7 @@ import Navbar from './pages/NavBar';
 import Objectifs from './pages/Objectifs';
 import Particles from './components/Particles.tsx';
 import Profil from './pages/Profil.tsx';
+import Parcours from './components/Parcours.tsx';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
         <Navbar />
         <GlobalPresentation />
         <Objectifs />
-        <Profil />
+        {/*<Profil />
+        <Parcours />*/}
       </div>
     </BrowserRouter>
   )
