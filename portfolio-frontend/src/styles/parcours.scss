@@ -1,0 +1,10 @@
+@import './_variables.scss';
+@import './_mixins.scss';
+@import './_general.scss';
+
+.parcours {
+    @include size($width: 900px, $height: 500px);
+    .parcours-title, .parcours-card-title, .parcours-subtitle, .jaQaOm {
+        color: $blanc;
+    }
+}
