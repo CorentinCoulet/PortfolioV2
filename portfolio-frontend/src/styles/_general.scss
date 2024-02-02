@@ -25,9 +25,7 @@ h2 {
     line-height: 1.2;
 }
 
-.globalPresentation, .objectifs, .profil {
-    display: flex;
-    flex-direction: column;
+.globalPresentation, .objectifs, .profil, .contact {
     @include center-element;
     @include borders;
     @include size;
@@ -36,4 +34,9 @@ h2 {
         10px 0 10px rgba(0, 0, 0, 0.301), 
         -10px 0 10px rgba(0, 0, 0, 0.301)
     );
+}
+
+.globalPresentation, .objectifs, .profil {
+    display: flex;
+    flex-direction: column;
 }

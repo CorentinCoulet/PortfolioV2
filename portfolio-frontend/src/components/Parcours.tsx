@@ -13,7 +13,7 @@ const Parcours = () => {
       media: {   
         type: "IMAGE",
         source: {
-          url: "https://iutp.univ-poitiers.fr/geii/wp-content/uploads/sites/21/2014/03/Logo-GEII-fond-transparent-HR.gif",
+          url: "https://cdn3.talentsdunumerique.com/sites/default/files/styles/max_325x325/public/logos/logo3warouge_0.jpg.webp?itok=5Z6_PUZx",
         }
       }
     },
@@ -25,7 +25,7 @@ const Parcours = () => {
       media: {   
         type: "IMAGE",
         source: {
-          url: "https://iutp.univ-poitiers.fr/geii/wp-content/uploads/sites/21/2014/03/Logo-GEII-fond-transparent-HR.gif",
+          url: "https://media.licdn.com/dms/image/C4E0BAQFAsEIPXXBUNA/company-logo_200_200/0/1673595477543/sofi_groupe_logo?e=2147483647&v=beta&t=P_dpAe6io61ORxgp22op-u_mfCA3NwAMYfdK_eArE0A",
         }
       }
     },
@@ -37,7 +37,7 @@ const Parcours = () => {
       media: {   
         type: "IMAGE",
         source: {
-          url: "https://iutp.univ-poitiers.fr/geii/wp-content/uploads/sites/21/2014/03/Logo-GEII-fond-transparent-HR.gif",
+          url: "https://media.licdn.com/dms/image/C4D0BAQGi6MNx24YYug/company-logo_200_200/0/1631313331606?e=2147483647&v=beta&t=C1vx7my20fJ7tMb4FeRr-U0Bpby_dcoOwVgf0VyPE_g",
         }
       }
     },
@@ -57,7 +57,7 @@ const Parcours = () => {
       title: "Septembre 2018- Novembre 2020",
       cardTitle: "DUT GEII",
       cardSubtitle:"Université Montpellier-Sète",
-      cardDetailedText: "Le DUT GEII est une formation professionnalisante comprenant des enseignements en mathématiques, physique appliquée et anglais complétés par des enseignements en énergie, électronique, systèmes embarqués, informatique des systèmes industriels : contrôle, commande des systèmes automatisés, réseaux de communications industrielles, automatismes, robotique.",
+      cardDetailedText: "Le DUT GEII est une formation professionnalisante comprenant des enseignements en mathématiques, physique appliquée et anglais complétés par des enseignements en énergie, électronique, systèmes embarqués, commande des systèmes automatisés, automatismes, robotique.",
       media: {   
         type: "IMAGE",
         source: {
@@ -67,13 +67,13 @@ const Parcours = () => {
     },
     {
       title: "2018-2020",
-      cardTitle: "Bac STI2D",
+      cardTitle: "Bac STI2D Option SIN",
       cardSubtitle:"Lycée Saint Joseph Pierre Rouge",
-      cardDetailedText: "La série STI2D permet d’acquérir des compétences technologiques étendues, transversales à tous les domaines industriels, ainsi que des compétences approfondies dans un champ de spécialité.",
+      cardDetailedText: "La série STI2D (Sciences et Techniques de l'Ingénieur et du Développement Durable) permet d’acquérir des compétences technologiques étendues, transversales à tous les domaines industriels, ainsi que des compétences approfondies dans un champ de spécialité.",
       media: {   
         type: "IMAGE",
         source: {
-          url: "https://lycee-paul-heroult.fr/wp-content/uploads/2019/06/ico-web-filiere-sti2d.png",
+          url: "https://image.jimcdn.com/app/cms/image/transf/none/path/sef1ec10cfe474565/image/id6e0719a22d4a8b7/version/1539033317/image.png",
         }
       }
     },

@@ -6,6 +6,7 @@ import Objectifs from './pages/Objectifs';
 import Particles from './components/Particles.tsx';
 import Profil from './pages/Profil.tsx';
 import Parcours from './components/Parcours.tsx';
+import Contact from './pages/Contact.tsx';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <GlobalPresentation />
         <Objectifs />
         <Profil />
+        <Contact />
       </div>
     </BrowserRouter>
   )
